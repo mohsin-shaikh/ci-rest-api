@@ -8,51 +8,66 @@
 4. [Collaboration](#collaboration)
 5. [FAQs](#faqs)
 
+
 ### General Info
 ***
-Write down general information about your project. It is a good idea to always put a project status in the readme file. This is where you can add it. 
+Secured RESTful API with CodeIgniter and JSON Web Tokens.
 
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+The growing use and applications of cloud services necessitates a more efficient architectural style than the Simple Object Access Protocol (SOAP). REST (REpresentational State Transfer) allows for a light-weight, stateless communication between clients and the Application Programming Interface (API). Because the communication is stateless, access control for Restful APIs is based on tokens which carry enough information to determine whether or not the client is authorized to perform the requested action on the resource.
+
+In this tutorial, I will use CodeIgniter to build a RESTful API. CodeIgniter is a powerful PHP framework with a very small footprint which allows developers to build full-scale web applications.
+
+<!-- ### Screenshot -->
+<!-- ![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg) -->
+
 
 ## Technologies
 ***
 A list of technologies used within the project:
 * [PHP](https://php.net): Version 7.3 or higher  
+* [Composer](https://getcomposer.org): Version Latest 
 * [CodeIgniter 4](https://codeigniter.com): Version 4.0.0 
 * [Firebase/PHP-JWT](https://example.com): Version 5.4
 
+
 ## Installation
 ***
-A little intro about the installation. 
+<!-- A little intro about the installation.  -->
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
+$ git clone https://github.com/mohsin-shaikh/rest-api.git
+$ cd rest-api
+$ composer install
+$ php spark serve
 ```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
+<!-- Side information: To use the application in a special environment use ```lorem ipsum``` to start -->
 
-## Collaboration
+<!-- ## Collaboration
 ***
 Give instructions on how to collaborate with your project.
 > Maybe you want to write a quote in this part. 
 > Should it encompass several lines?
-> This is how you do it.
+> This is how you do it. -->
 
-## FAQs
+<!-- ## FAQs
 ***
 A list of frequently asked questions
 1. **This is a question in bold**
+
 Answer to the first question with _italic words_. 
+
 2. __Second question in bold__ 
+
 To answer this question, we use an unordered list:
 * First point
 * Second Point
 * Third point
+
 3. **Third question in bold**
+
 Answer to the third question with *italic words*.
+
 4. **Fourth question in bold**
+
 | Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
 |:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
+| text-align left | text-align center | text-align right | -->
