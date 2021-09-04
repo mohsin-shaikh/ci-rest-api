@@ -22,8 +22,10 @@ class ClientModel extends Model
             ->where(['id' => $id])
             ->first();
 
-        if (!$client) throw new Exception('Could not find client for specified ID');
-
+        if (!$client) {
+            throw new Exception('Could not find client for specified ID');
+        }
+        
         return $client;
     }
 }

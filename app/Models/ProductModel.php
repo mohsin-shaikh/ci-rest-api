@@ -4,17 +4,17 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class UsersModel extends Model
+class ProductModel extends Model
 {
-    protected $table      = 'users';
-    protected $primaryKey = 'user_id';
+    protected $table      = 'product';
+    protected $primaryKey = 'id';
 
     protected $useAutoIncrement = true;
 
     // protected $returnType     = 'array';
     // protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['username', 'password'];
+    protected $allowedFields = ['name'];
 
     // protected $useTimestamps = false;
     // protected $createdField  = 'created_at';
