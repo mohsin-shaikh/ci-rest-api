@@ -60,10 +60,7 @@ class BaseController extends Controller
 
 	public function getResponse(array $responseBody, int $code = ResponseInterface::HTTP_OK)
 	{
-		return $this
-			->response
-			->setStatusCode($code)
-			->setJSON($responseBody);
+		return $this->response->setStatusCode($code)->setJSON($responseBody);
 	}
 
 	public function getRequestInput(IncomingRequest $request)
@@ -97,6 +94,5 @@ class BaseController extends Controller
 			$rules = $validation->$rules;
 		}
 		return $this->validator->setRules($rules, $messages)->run($input);
-	}	
-	
+	}		
 }

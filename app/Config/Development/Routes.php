@@ -1,6 +1,6 @@
 <?php
 
-$routes->resource('product');
+// $routes->resource('product');
 
 $routes->get('client', 'Client::index');
 $routes->post('client', 'Client::store');
