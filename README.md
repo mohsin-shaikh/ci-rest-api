@@ -2,9 +2,11 @@
 
 
 ## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
+- [REST API](#rest-api)
+  - [Table of Contents](#table-of-contents)
+    - [General Info](#general-info)
+  - [Technologies](#technologies)
+  - [Installation](#installation)
 <!-- 4. [Collaboration](#collaboration) -->
 <!-- 5. [FAQs](#faqs) -->
 
@@ -15,7 +17,7 @@ Secured RESTful API with CodeIgniter and JSON Web Tokens.
 
 The growing use and applications of cloud services necessitates a more efficient architectural style than the Simple Object Access Protocol (SOAP). REST (REpresentational State Transfer) allows for a light-weight, stateless communication between clients and the Application Programming Interface (API). Because the communication is stateless, access control for Restful APIs is based on tokens which carry enough information to determine whether or not the client is authorized to perform the requested action on the resource.
 
-In this tutorial, I will use CodeIgniter to build a RESTful API. CodeIgniter is a powerful PHP framework with a very small footprint which allows developers to build full-scale web applications.
+I have used CodeIgniter to build a RESTful API. CodeIgniter is a powerful PHP framework with a very small footprint which allows developers to build full-scale web applications.
 
 <!-- ### Screenshot -->
 <!-- ![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg) -->
