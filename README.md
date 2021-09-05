@@ -4,14 +4,14 @@
 ## Table of Contents
 - [REST API](#rest-api)
   - [Table of Contents](#table-of-contents)
-    - [General Info](#general-info)
+  - [General Info](#general-info)
   - [Technologies](#technologies)
   - [Installation](#installation)
 <!-- 4. [Collaboration](#collaboration) -->
 <!-- 5. [FAQs](#faqs) -->
 
 
-### General Info
+## General Info
 ***
 Secured RESTful API with CodeIgniter and JSON Web Tokens.
 
