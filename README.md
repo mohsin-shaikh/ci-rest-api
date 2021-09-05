@@ -55,8 +55,8 @@ $ php spark migrate
 ```
 Step 5: Run the database seed
 ```
-$ php spark db:seed ClientSeeder
-$ php spark db:seed ProductSeeder
+$ php spark db:seed Client
+$ php spark db:seed Product
 ```
 Step 6: Run Server
 ```
