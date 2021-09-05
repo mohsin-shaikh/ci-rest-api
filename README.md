@@ -29,16 +29,37 @@ A list of technologies used within the project:
 * [PHP](https://php.net): Version 7.3 or higher  
 * [Composer](https://getcomposer.org): Version Latest 
 * [CodeIgniter 4](https://codeigniter.com): Version 4.0.0 
-* [Firebase/PHP-JWT](https://example.com): Version 5.4
+* [Firebase/PHP-JWT](https://github.com/firebase/php-jwt): Version 5.4
 
 
 ## Installation
 ***
 <!-- A little intro about the installation.  -->
+Step 1: Clone the repository
 ```
 $ git clone https://github.com/mohsin-shaikh/rest-api.git
 $ cd rest-api
+$ code .
+```
+Step 2: Copy env as .env and Setup the database
+```
+$ cp env .env
+```
+Step 3: Run composer install
+```
 $ composer install
+```
+Step 4: Run the database migration
+```
+$ php spark migrate
+```
+Step 5: Run the database seed
+```
+$ php spark db:seed ClientSeeder
+$ php spark db:seed ProductSeeder
+```
+Step 6: Run Server
+```
 $ php spark serve
 ```
 <!-- Side information: To use the application in a special environment use ```lorem ipsum``` to start -->
