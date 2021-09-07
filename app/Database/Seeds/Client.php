@@ -5,7 +5,7 @@ namespace App\Database\Seeds;
 use CodeIgniter\Database\Seeder;
 use Faker\Factory;
 
-class ClientSeeder extends Seeder
+class Client extends Seeder
 {
 	public function run()
     {

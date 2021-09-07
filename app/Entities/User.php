@@ -5,6 +5,9 @@ namespace App\Entities;
 use CodeIgniter\Entity\Entity;
 use CodeIgniter\I18n\Time;
 
+/**
+ * FIXME: NOT IN USE
+ */ 
 class User extends Entity
 {
 	protected $datamap = [];
